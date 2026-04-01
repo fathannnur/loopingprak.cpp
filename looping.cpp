@@ -43,3 +43,9 @@ int main()
     }
     return 0;
 }
+
+bool isPrime(int num)
+{
+    if (num <= 1)
+        return false;
+    int i = 2;
