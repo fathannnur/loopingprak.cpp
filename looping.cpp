@@ -97,3 +97,12 @@ void displayResult(int type)
             cout << n << " BUKAN bagian dari deret Fibonacci." << endl;
     }
 }
+
+void showMenu()
+{
+    cout << "=== PROGRAM PENGECEK BILANGAN ===" << endl;
+    cout << "1. Cek Bilangan Prima" << endl;
+    cout << "2. Cek Bilangan Fibonacci" << endl;
+    cout << "0. Keluar" << endl;
+    cout << "Pilih menu: ";
+}
