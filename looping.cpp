@@ -89,3 +89,11 @@ void displayResult(int type)
         else
             cout << n << " BUKAN bilangan prima." << endl;
     }
+    else
+    {
+        if (isFibonacci(n))
+            cout << n << " termasuk dalam deret Fibonacci." << endl;
+        else
+            cout << n << " BUKAN bagian dari deret Fibonacci." << endl;
+    }
+}
