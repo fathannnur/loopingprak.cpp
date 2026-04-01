@@ -59,3 +59,17 @@ bool isPrime(int num)
     return true;
 }
 
+bool isFibonacci(int num)
+{
+    if (num < 0)
+        return false;
+    int a = 0, b = 1;
+
+    while (a < num)
+    {
+        int temp = a + b;
+        a = b;
+        b = temp;
+    }
+    return (a == num);
+}
