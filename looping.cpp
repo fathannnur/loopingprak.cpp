@@ -11,3 +11,5 @@ bool isFibonacci(int num);
 void inputNumber();
 void displayResult(int type);
 void showMenu();
+
+int main()
