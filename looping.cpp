@@ -79,3 +79,13 @@ void inputNumber()
     cout << "Masukkan angka: ";
     cin >> n;
 }
+
+void displayResult(int type)
+{
+    if (type == 1)
+    {
+        if (isPrime(n))
+            cout << n << " adalah bilangan prima." << endl;
+        else
+            cout << n << " BUKAN bilangan prima." << endl;
+    }
